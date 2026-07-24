@@ -840,7 +840,7 @@ function drawGameScreen() {
     ctx.textBaseline = 'middle';
     ctx.shadowColor = 'rgba(46,204,113,0.5)';
     ctx.shadowBlur = 15;
-    ctx.fillText('💩', player.x, player.y);
+    ctx.fillText('🦸⚔️', player.x, player.y);
     ctx.shadowBlur = 0;
     ctx.globalAlpha = 1;
     
@@ -1022,7 +1022,7 @@ function drawVictoryScreen() {
     ctx.fillText('🏆', 450, 100);
     
     ctx.font = 'bold 36px Arial';
-    ctx.fillText('🎉 Congratulations!', 450, 180);
+    ctx.fillText('🎉 Congratulations Langga!', 450, 180);
     
     ctx.font = '18px Arial';
     ctx.fillStyle = '#d0e8e0';
@@ -1363,7 +1363,7 @@ function defeatBoss() {
             game.screen = 'victory';
             game.isVictory = true;
             game.selectedButton = 0;
-            showToast('🏆 Nutrition Town is saved! 🎉 CONGRATULATIONS LANGGA! 🎉', 3000);
+            showToast('🏆 Nutrition Town is saved! 🎉 CONGRATULATIONS LANGGA! 🎉', 2700);
         } else {
             game.screen = 'levelComplete';
             game.selectedButton = 0;
