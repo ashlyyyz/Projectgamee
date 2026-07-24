@@ -944,7 +944,7 @@ function drawLevelCompleteScreen() {
     ctx.fillText('🎉 CONGRATS LANGGA', 450, 130);
     
     ctx.font = 'bold 38px Arial';
-    ctx.fillText('Level Complete!', 450, 210);
+    ctx.fillText('Level Complete Congrats Langga!', 450, 210);
     
     ctx.font = '18px Arial';
     ctx.fillStyle = '#d0e8e0';
